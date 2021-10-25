@@ -1,14 +1,17 @@
 <?php
 declare(strict_types=1);
 require ('movies.php');
+$i=1;
 
-$age= readline("\n");
+$age=readline("\n");
 
     if (is_numeric($age) && (int)$age>=0) {
         foreach ($movies as $movie) {
-            if ($movie['age restriction'] <= age) {
+            if ($movie['age_restriction'] <= $age) {
+                echo "$i.";
                 echo $movie['title'];
                 echo "\n";
+                $i++;
 
             }
         }

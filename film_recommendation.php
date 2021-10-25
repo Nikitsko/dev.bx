@@ -10,8 +10,11 @@ $age=readline("\n");
             if ($movie['age_restriction'] <= $age) {
                 echo "$i.";
                 echo $movie['title'];
+                echo "(";
                 echo $movie['release_year'];
+                echo ")";
                 echo $movie['age_restriction'];
+                echo " ";
                 echo "Rating-";
                 echo $movie['rating'];
                 echo "\n";

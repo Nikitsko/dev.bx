@@ -13,6 +13,7 @@ $age=readline("\n");
                 echo "(";
                 echo $movie['release_year'];
                 echo ")";
+                echo "Age restriction-";
                 echo $movie['age_restriction'];
                 echo " ";
                 echo "Rating-";

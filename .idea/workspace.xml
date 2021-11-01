@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51abebe6-2d45-4d09-9c19-61ba3684dd7c" name="Changes" comment="Исправил ошибки в синтаксисе и добавил счётчик" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework-1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9003" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false">
+    <xdebug_debug_ports port="9003" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="dev.bx" id="4b0eb9d6-ce71-4db3-b147-06e78c78c6c4" name="dev.bx" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\Users\mikle\server\OpenServer\domains\dev.bx" selected_validation_type="LOCAL" web_path_to_validation_script="http://dev.bx" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1zMT41jeCYyhz6dNJkiqGM3Y1BO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="film_recommendation.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dev.bx/dev.bx/film_recommendation.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.film_recommendation.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51abebe6-2d45-4d09-9c19-61ba3684dd7c" name="Changes" comment="" />
+      <created>1633956837706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633956837706</updated>
+      <workItem from="1633956837744" duration="2070000" />
+      <workItem from="1633963303964" duration="2156000" />
+      <workItem from="1634105250124" duration="2477000" />
+      <workItem from="1635059026212" duration="8438000" />
+      <workItem from="1635091978873" duration="10923000" />
+      <workItem from="1635143037677" duration="1374000" />
+      <workItem from="1635145109250" duration="3867000" />
+      <workItem from="1635150768719" duration="2463000" />
+      <workItem from="1635154465539" duration="3119000" />
+    </task>
+    <task id="LOCAL-00001" summary="добавил инфо и индекс">
+      <created>1634122189005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634122189005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавил рекоммендации">
+      <created>1635099348973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635099348973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавил рекоммендации">
+      <created>1635107167481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635107167606</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Исправил ошибки в синтаксисе и добавил счётчик">
+      <created>1635148478643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635148478643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="homework-2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="добавил инфо и индекс" />
+    <MESSAGE value="добавил рекоммендации" />
+    <MESSAGE value="Исправил ошибки в синтаксисе и добавил счётчик" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил ошибки в синтаксисе и добавил счётчик" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

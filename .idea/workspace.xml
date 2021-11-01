@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework-1" />
+        <entry key="$PROJECT_DIR$" value="homework-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,6 +88,7 @@
       <workItem from="1635145109250" duration="3867000" />
       <workItem from="1635150768719" duration="2463000" />
       <workItem from="1635154465539" duration="3119000" />
+      <workItem from="1635789736099" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="добавил инфо и индекс">
       <created>1634122189005</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635148478643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1635789921388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635789921388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,12 +137,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="homework-2" />
+                        <option value="homework-4" />
                       </list>
                     </value>
                   </entry>

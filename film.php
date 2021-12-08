@@ -9,6 +9,7 @@ declare(strict_types=1);
 require_once "./config.php";
 require_once "./lib/template-functions.php";
 require_once "./lib/movies-functions.php";
+require_once "./lib/film-page-functions.php";
 require_once "./data/data/menu.php";
 require_once "./lib/db_connection.php";
 
@@ -23,26 +24,22 @@ $genres = getGenresFromDB(
 	$db
 );
 
-if (isset($_GET['currentPage']) && $currentPage != 'Главная')
-{
-	$currentPage = $_GET['currentPage'];
-	$movies = getMoviesFromBD($db, getGenreRus($currentPage, $genres));
-}
-else
-{
-	$movies = getMoviesFromBD($db, '');
-	$currentPage = 'index';
-}
+$movies = getMoviesFromBD($db);
 
-// prepare page content
-$filmListPage = renderTemplate("./resources/pages/films.php", [
-	'movies' => $movies
+
+
+$filmId = (int)$_GET['film_id'];
+
+unset($_GET['currentPage']);
+
+
+$filmListPage = renderTemplate("./resources/pages/film_full_info.php", [
+	'film' => getFilmById($filmId, $movies)
 ]);
 
-// render layout
+
 renderLayout($filmListPage, [
 	'config' => $config,
 	'menu' => $menu,
-	'genres' => $genres,
-	'currentPage' => $currentPage
+	'genres' => $genres
 ]);

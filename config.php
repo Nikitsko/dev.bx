@@ -1,10 +1,11 @@
 <?php
 
-$page_config = [
-	'menu' => array(
-		'home' => 'главная',
-		'favorite' => 'Избранное'
-	)
-	];
-
-/*echo $page_config['menu']['Главная'];*/
+$config = [
+	'db' => 'bitflixDB',
+	'host' => 'localhost',
+	'username' => 'user',
+	'password' => 'password',
+	'title' => 'Movies',
+	'user-name' => 'Nikita',
+	'current-year' => 2021
+];

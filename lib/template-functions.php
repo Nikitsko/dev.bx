@@ -3,10 +3,9 @@
 function renderTemplate(string $path, array $templateData = []): string
 {
 	if (!file_exists($path))
-    {
-		return "Ведутся технические работы";
+	{
+		return "";
 	}
-
 
 	extract($templateData, EXTR_OVERWRITE);
 
@@ -17,12 +16,13 @@ function renderTemplate(string $path, array $templateData = []): string
 	return ob_get_clean();
 }
 
-function renderLayout(string $content, array $templateDate = []):void
+function renderLayout(string $content, array $templateData = []): void
 {
-	$data = array_merge($templateDate, [
-		'content' => $content,
-
+	$data = array_merge($templateData, [
+		'content' => $content
 	]);
 	$result = renderTemplate("./resources/pages/layout.php", $data);
+
 	echo $result;
 }
+

@@ -23,16 +23,8 @@ $genres = getGenresFromDB(
 	$db
 );
 
-if (isset($_GET['currentPage']) && $currentPage != 'Главная')
-{
-	$currentPage = $_GET['currentPage'];
-	$movies = getMoviesFromBD($db, getGenreRus($currentPage, $genres));
-}
-else
-{
-	$movies = getMoviesFromBD($db, '');
-	$currentPage = 'index';
-}
+$currentPage = 'favourites';
+$movies = getMoviesFromBD($db, '');
 
 // prepare page content
 $filmListPage = renderTemplate("./resources/pages/films.php", [

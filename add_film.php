@@ -1,7 +1,6 @@
 <?php
 declare(strict_types=1);
 /** @var array $config */
-/** @var array $movies */
 /** @var array $genres */
 /** @var array $menu */
 /** @var string $currentPage */
@@ -22,27 +21,14 @@ $db = dbConnect(
 $genres = getGenresFromDB(
 	$db
 );
-
-if (isset($_GET['currentPage']) && $currentPage != 'Главная')
-{
-	$currentPage = $_GET['currentPage'];
-	$movies = getMoviesFromBD($db, getGenreRus($currentPage, $genres));
-}
-else
-{
-	$movies = getMoviesFromBD($db, '');
-	$currentPage = 'index';
-}
-
 // prepare page content
-$filmListPage = renderTemplate("./resources/pages/films.php", [
-	'movies' => $movies
+$filmListPage = renderTemplate("./resources/pages/add_film.php", [
+
 ]);
 
 // render layout
 renderLayout($filmListPage, [
 	'config' => $config,
 	'menu' => $menu,
-	'genres' => $genres,
-	'currentPage' => $currentPage
+	'genres' => $genres
 ]);
